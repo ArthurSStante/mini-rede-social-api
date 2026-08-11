@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use("/api/post", postRoutes);
+app.use("/api/posts", postRoutes);
 app.use("/api", commentRoutes);
 
 app.get("/", (req, res) => {
