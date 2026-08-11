@@ -5,6 +5,7 @@ const {
   createPost,
   getPosts,
   getPostById,
+  updatePost,
   deletePost,
   toggleLike,
 } = require('../controllers/postController');
@@ -12,6 +13,7 @@ const {
 router.post('/', protect, createPost);
 router.get('/', getPosts);
 router.get('/:id', getPostById);
+router.put('/:id', protect, updatePost);
 router.delete('/:id', protect, deletePost);
 router.post('/:id/like', protect, toggleLike);
 
