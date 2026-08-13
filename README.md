@@ -64,7 +64,8 @@ API REST para uma rede social simples, com autenticação, posts, curtidas, come
 ## 🔧 Como rodar localmente
 
 ```bash
-git clone LINK_DO_REPO_API
+git clone [LINK_DO_REPO_API](https://github.com/ArthurSStante/mini-rede-social-api)
+
 cd mini-rede-social-api
 
 npm install
