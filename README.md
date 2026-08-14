@@ -63,22 +63,27 @@ API REST para uma rede social simples, com autenticação, posts, curtidas, come
 
 ## 🔧 Como rodar localmente
 
-\`\`\`bash
-git clone LINK_DO_REPO_API
+```bash
+git clone [LINK_DO_REPO_API](https://github.com/ArthurSStante/mini-rede-social-api)
+
 cd mini-rede-social-api
 
 npm install
+``` 
 
-# Crie um arquivo .env na raiz com:
+Crie um arquivo `.env` na raiz com:
 
+``` 
 # PORT=5000
 
 # MONGO_URI=sua_string_de_conexao_mongodb
 
 # JWT_SECRET=sua_chave_secreta
+``` 
 
+```bash
 npm run dev
-\`\`\`
+``` 
 
 ## 📌 Sobre o projeto
 
