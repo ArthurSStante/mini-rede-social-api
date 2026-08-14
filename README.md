@@ -6,7 +6,9 @@ API REST para uma rede social simples, com autenticação, posts, curtidas, come
 
 ## 🚀 Deploy
 
-> Em breve — deploy ainda não realizado.
+🔗 **API em produção:** [https://mini-rede-social-api.onrender.com](https://mini-rede-social-api.onrender.com)
+
+> ⚠️ Hospedada no plano gratuito do Render — se a API ficar inativa por um tempo, a primeira requisição pode levar até 50 segundos para responder enquanto o servidor "acorda".
 
 ## 🛠️ Tecnologias
 
